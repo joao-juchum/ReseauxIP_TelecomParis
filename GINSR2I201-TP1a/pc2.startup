@@ -1,0 +1,3 @@
+/sbin/ifconfig eth0 hw ether 00:00:00:02:00:bb
+/sbin/ifconfig eth0 add 2001::201:2/64 up
+/sbin/ifconfig eth0 add fe80::200:ff:fe02:bb/64

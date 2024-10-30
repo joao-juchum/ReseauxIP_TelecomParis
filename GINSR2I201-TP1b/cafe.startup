@@ -1,0 +1,8 @@
+ifconfig eth0 hw ether C0:A0:F0:E0:00:AA up
+ifconfig eth1 hw ether C0:A0:F0:E0:00:BB up
+
+ifconfig eth0 add 2001:DEAD:FACE:A::CAFE/64
+ifconfig eth1 add 2001:DEAD:FACE:B::CAFE/64
+
+route -A inet6 add 2001:DEAD:FACE:C::/64 gw 2001:DEAD:FACE:B::BABE
+route -A inet6 add 2001:DDDD::/64 gw 2001:DEAD:FACE:B::BABE

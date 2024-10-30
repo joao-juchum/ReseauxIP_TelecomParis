@@ -1,0 +1,5 @@
+ifconfig eth0 hw ether 00:AA:AA:00:00:A1 up
+
+ifconfig eth0 add 2001:DEAD:FACE:A::A1/64
+
+route -A inet6 add default gw 2001:DEAD:FACE:A::CAFE dev eth0

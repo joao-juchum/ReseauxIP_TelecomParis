@@ -1,0 +1,4 @@
+traceroute to 2001:DDDD::DDDD (2001:dddd::dddd), 30 hops max, 80 byte packets
+ 1  2001:dead:face:a::cafe (2001:dead:face:a::cafe)  0.675 ms  0.729 ms  0.920 ms
+ 2  2001:dead:face:b::babe (2001:dead:face:b::babe)  3.061 ms  3.589 ms  4.629 ms
+ 3  2001:dead:face:c::beef (2001:dead:face:c::beef)  5.129 ms !N  3.992 ms !N  5.535 ms !N
