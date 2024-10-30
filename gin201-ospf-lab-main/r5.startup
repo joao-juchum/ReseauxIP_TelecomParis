@@ -1,0 +1,2 @@
+/sbin/ifconfig eth0 10.10.99.5 netmask 255.255.255.0 up
+/etc/init.d/quagga start
